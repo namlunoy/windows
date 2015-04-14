@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MyTimer.exe" version="1.0.0.1" publicKeyToken="46abb338ce16e5f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="timerico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MyTimer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MyTimer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyTimer.exe" size="155064">
+      <assemblyIdentity name="MyTimer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vwuwCqd5+ibVl0BkEhm/yoh3fCUt6YrvJ+5F7ubuESw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MyTimer.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="timerico.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VITbJlRAmrUQNGj3KDpywaYl4XJTIBiBH2Vu4oW2cBc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=nana\conghoang" issuerKeyHash="d3f4c4ae6579c86b29c1686a02329f14e783425b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QQls/hiJPIKz24LDE7FKeNTYNwVoBAz061biqh0fSGU=</DigestValue></Reference></SignedInfo><SignatureValue>CYVsAMUgpL/GbdEXgiTNgTJxDPS6s9nFzQSjx+crfk4AyrDwdnUDFZWtBwq1VBlJNlzinn77AiIBQwZbl0drAgIi45u7CYCPOsCvt6Vjd10h6N918Av6SiQr0AIB8pNxHAIJrwSnL9oWXJqQcQsSaiTz0Zqm36ZFswNXIeD2TeU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uOQqucXXjcm8oGIZhiWn44CZL2R5qpl7Rb6VUmSCnM8fbuL+/m74O73gaxHLz/Qk+UO0C5jdlgLxV5OhF6aMLtv4v1Xj+3WUa8L54jGqrh8CCOsOSVbmS2SMZtVS2dr5300l0JA2bBi94lapYletiQPXIeFql/y0kUaeZtNHeUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="65481f1daae256ebf40c04680537d8d4784ab113c382dbb3823c8918fe6c0941" Description="" Url=""><as:assemblyIdentity name="MyTimer.exe" version="1.0.0.1" publicKeyToken="46abb338ce16e5f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=nana\conghoang</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H3vm2U+5320m6LTyTQc0MUj+zEt3tlcwPXzfNmDWFFs=</DigestValue></Reference></SignedInfo><SignatureValue>VstJyOMQvX38UoZr6xhcc+Lc2CGXf4rZo5WbsBY/HVdZG3O7BUjK/y0LLNrnrljyh/3xkxRoAVPQOh4kAYSt/LW5ld8xvXGkCJ9AcaVTqfspzsE5Pgck1Z6mip+Yrg+WDP1LxN3xUI9pRAdcRYncpDpFOWNWsrjESMYh4SEyPF4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uOQqucXXjcm8oGIZhiWn44CZL2R5qpl7Rb6VUmSCnM8fbuL+/m74O73gaxHLz/Qk+UO0C5jdlgLxV5OhF6aMLtv4v1Xj+3WUa8L54jGqrh8CCOsOSVbmS2SMZtVS2dr5300l0JA2bBi94lapYletiQPXIeFql/y0kUaeZtNHeUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQRny0i/HFkbBJNybqNgRz4TANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAbgBhAG4AYQBcAGMAbwBuAGcAaABvAGEAbgBnMB4XDTE0MTIxMzA1MzAxMFoXDTE1MTIxMzExMzAxMFowJzElMCMGA1UEAx4cAG4AYQBuAGEAXABjAG8AbgBnAGgAbwBhAG4AZzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuOQqucXXjcm8oGIZhiWn44CZL2R5qpl7Rb6VUmSCnM8fbuL+/m74O73gaxHLz/Qk+UO0C5jdlgLxV5OhF6aMLtv4v1Xj+3WUa8L54jGqrh8CCOsOSVbmS2SMZtVS2dr5300l0JA2bBi94lapYletiQPXIeFql/y0kUaeZtNHeUUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAPa6L0NKC8BV+/THZFvL3tNj6P1jBsu6EoY3XmTPkiszBmYSDv/UqfKlGml47UchaYGzb8mgDGiVbvFjx+qHYIv6Nz1GebLvPwJnsSzSuflAPhqfpfp8FBf1Xoju24Shw4vZVIVjFyWIP6FYhOUO8eARjoyEqYM0erfBrbmqRJ4g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

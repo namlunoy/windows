@@ -1,0 +1,9 @@
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\bin\Debug\SepateSpriteSheet.exe.config
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\bin\Debug\SepateSpriteSheet.exe
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\bin\Debug\SepateSpriteSheet.pdb
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\obj\Debug\SepateSpriteSheet.csprojResolveAssemblyReference.cache
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\obj\Debug\SepateSpriteSheet.Form1.resources
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\obj\Debug\SepateSpriteSheet.Properties.Resources.resources
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\obj\Debug\SepateSpriteSheet.csproj.GenerateResource.Cache
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\obj\Debug\SepateSpriteSheet.exe
+E:\work\Projects x\SepateSpriteSheet\SepateSpriteSheet\SepateSpriteSheet\obj\Debug\SepateSpriteSheet.pdb

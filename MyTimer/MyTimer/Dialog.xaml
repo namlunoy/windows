@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyTimer.Dialog"
+        MouseDown="Window_MouseDown"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dialog" Height="92.61" Width="165.101" Background="#FF282828" AllowsTransparency="True" WindowStyle="None">
+    <Grid>
+        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="4" BorderBrush="#FF7C7C7C" />
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="RESET" Foreground="#FFB6B6B6" FontFamily="Quartz MS" Margin="0,0,0,30" FontSize="20" />
+
+        <Button Click="ClickYes" HorizontalAlignment="Center" VerticalAlignment="Center" Content="YES" Width="40" Margin="0,40,50,0" FontFamily="Quartz MS" />
+
+        <Button Click="ClickNo" HorizontalAlignment="Center" VerticalAlignment="Center" Content="NO" Width="40" Margin="0,40,-50,0" FontFamily="Quartz MS" />
+    </Grid>
+</Window>

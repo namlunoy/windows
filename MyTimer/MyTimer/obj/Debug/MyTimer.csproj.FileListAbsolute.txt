@@ -1,0 +1,13 @@
+E:\work\Projects w\MyTimer\MyTimer\bin\Debug\MyTimer.exe.config
+E:\work\Projects w\MyTimer\MyTimer\bin\Debug\MyTimer.exe
+E:\work\Projects w\MyTimer\MyTimer\bin\Debug\MyTimer.pdb
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer.csprojResolveAssemblyReference.cache
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MainWindow.baml
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MainWindow.g.cs
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\App.g.cs
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer_MarkupCompile.cache
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer.g.resources
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer.Properties.Resources.resources
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer.csproj.GenerateResource.Cache
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer.exe
+E:\work\Projects w\MyTimer\MyTimer\obj\Debug\MyTimer.pdb
