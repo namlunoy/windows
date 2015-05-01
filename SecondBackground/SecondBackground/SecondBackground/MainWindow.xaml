@@ -1,0 +1,17 @@
+﻿<Window x:Class="SecondBackground.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Name="window"
+        BorderBrush="Black"
+        WindowStyle="None"
+        Title="MainWindow" 
+        MouseDown="Window_MouseDown"
+        ResizeMode="CanResizeWithGrip"
+        AllowsTransparency="True"
+        
+        Height="350" Width="525" 
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="Black" >
+        <Image Name="_image" Stretch="Uniform" Source="C:\Users\conghoang\Dropbox\Backgrounds\bq.jpg" />
+    </Grid>
+</Window>

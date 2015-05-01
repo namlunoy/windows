@@ -18,3 +18,23 @@ E:\work\Projects w\MyTimer\MyTimer\obj\Release\MyTimer.application
 E:\work\Projects w\MyTimer\MyTimer\obj\Release\Dialog.baml
 E:\work\Projects w\MyTimer\MyTimer\obj\Release\Dialog.g.cs
 E:\work\Projects w\MyTimer\MyTimer\obj\Release\MyTimer.csprojResolveAssemblyReference.cache
+E:\work\_windows\MyTimer\MyTimer\bin\Release\MyTimer.exe.config
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.exe
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.pdb
+E:\work\_windows\MyTimer\MyTimer\bin\Release\MyTimer.exe.manifest
+E:\work\_windows\MyTimer\MyTimer\bin\Release\MyTimer.application
+E:\work\_windows\MyTimer\MyTimer\bin\Release\MyTimer.exe
+E:\work\_windows\MyTimer\MyTimer\bin\Release\MyTimer.pdb
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.csprojResolveAssemblyReference.cache
+E:\work\_windows\MyTimer\MyTimer\obj\Release\Dialog.baml
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MainWindow.baml
+E:\work\_windows\MyTimer\MyTimer\obj\Release\Dialog.g.cs
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MainWindow.g.cs
+E:\work\_windows\MyTimer\MyTimer\obj\Release\App.g.cs
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer_MarkupCompile.cache
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.g.resources
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.Properties.MyResource.resources
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.csproj.GenerateResource.Cache
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.TrustInfo.xml
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.exe.manifest
+E:\work\_windows\MyTimer\MyTimer\obj\Release\MyTimer.application

@@ -16,5 +16,10 @@ namespace ImagesToSpriteSheet
         {
             InitializeComponent();
         }
+
+        private void Click_Export(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
