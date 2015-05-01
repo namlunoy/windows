@@ -12,6 +12,14 @@
         Height="350" Width="525" 
         WindowStartupLocation="CenterScreen">
     <Grid Background="Black" >
-        <Image Name="_image" Stretch="Uniform" Source="C:\Users\conghoang\Dropbox\Backgrounds\bq.jpg" />
+        <Image Name="_image" Stretch="Uniform" Source="bg.jpg" />
+        <TextBlock  HorizontalAlignment="Left" VerticalAlignment="Bottom"  Foreground="White" Margin="1" FontFamily="Consolas" >
+            <Hyperlink Click="ClickFacebook" Foreground="White">The Brown Box</Hyperlink>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom"  Margin="0,0,20,0" >
+            <Hyperlink Foreground="White" Click="ClickMoreApps" >
+                more apps
+            </Hyperlink>
+        </TextBlock>
     </Grid>
 </Window>

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,14 +25,41 @@ namespace SecondBackground
         public Dialog()
         {
             InitializeComponent();
-       //     App.Current.Properties[0] = "123";
-          //  _xURL.Text = App.Current.Properties[0].ToString();
+            txtTime.Text = namlunoy.config.Time.ToString();
+            txtUrl.Text = namlunoy.config.Directory;
         }
 
         private void ClickSave(object sender, RoutedEventArgs e)
         {
-            App.Current.Properties[0] = _xURL.Text;
-            App.Current.Properties[1] = int.Parse(_xSIZE.Text);
+            if(!Directory.Exists(txtUrl.Text))
+            {
+                MessageBox.Show("The directory is invalid!");
+            }
+            else
+            {
+                int time;
+                if(int.TryParse(txtTime.Text,out time))
+                {
+                  if(namlunoy.GetImages(txtUrl.Text).Count == 0)
+                  {
+                      MessageBox.Show("The directory has no image!");
+                  }
+                  else
+                  {
+                      namlunoy.config.Directory = txtUrl.Text;
+                      namlunoy.config.Time = time;
+                      namlunoy.SaveConfig();
+                      MainWindow.Instance.Reload();
+                      this.Close();
+
+                  }
+                }
+                else
+                {
+                    MessageBox.Show("Time is invalid!");
+                }
+                
+            }
         }
 
         private void ClickCancel(object sender, RoutedEventArgs e)
